@@ -1,0 +1,14 @@
+<h4 className="contactlist-heading">ContactList
+      <button className="btn btn-primary right">Add Contact</button></h4>
+
+
+{
+    
+  "extends":["react-app","prettier"],
+  "rules": {
+      "prettier/prettier": "error" },
+  
+  "plugins": ["prettier"]   
+
+  
+  }

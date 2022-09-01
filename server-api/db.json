@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": "0884004a-492f-4bad-b1cc-dd7fdcd7fbcb",
+      "name": "Hot Pepper",
+      "email": "hot.pepper@gmail.com"
+    },
+    {
+      "id": "9f54fe60-63a0-4fad-a284-c0660f57d285",
+      "name": "Sweet Apple",
+      "email": "sweet.apple@gmail.com"
+    },
+    {
+      "id": "0f2402db-abd6-4a41-9030-205560deece2",
+      "name": "Juicy Meat",
+      "email": "juicy.meat@gmail.com"
+    },
+    {
+      "id": "5f2ea442-294f-4576-8f84-53f2fbc9916c",
+      "name": "Green Salad",
+      "email": "green.salad@gmail.com"
+    }
+  ]
+}
