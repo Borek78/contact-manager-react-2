@@ -8,19 +8,19 @@ import ContactDetail from "./ContactDetail";
 import DeletePage from "./DeletePage";
 import EditContact from "./EditContact";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../app.css";
+import "../App.css";
 import "../app-responsive.css";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
-const api = axios.create({
-  baseURL: "http://localhost:3006/",
-});
-
 // const api = axios.create({
-//   baseURL:
-//     "https://my-json-server.typicode.com/Borek78/json-server-for-contact-manager/",
+//   baseURL: "http://localhost:3006/",
 // });
+
+const api = axios.create({
+  baseURL:
+    "https://my-json-server.typicode.com/Borek78/json-server-for-contact-manager/",
+});
 
 function App() {
   const [contacts, setContacts] = useState([]);
